@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Conversion:</title>
+    <link rel="stylesheet" href="temperature.css">
+</head>
+<body>
+    
+    <main>
+        <h1>Temperature Conversion:</h1>
+        <input type="number" id="inputnum" value="0"><br>
+        <input type="radio" id="tofarenheit" name="unit">
+        <label for="tofarenheit">Celsius ➡️ farenheit</label><br>
+        <input type="radio" id="tocelcius" name="unit">
+        <label for="tocelcius">Farenheit ➡️ Celcius</label><br>
+        <button id="btnsub" onclick="convert()">Submit</button>
+        <p id="result">Sumbit result</p>
+        <script src="temperature.js"></script>
+    </main>
+    
+</body>
+</html>
