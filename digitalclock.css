@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    background-image: url("spidey.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#clock-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#clock{
+    font-family: monospace;
+    font-size: 3.3rem;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    backdrop-filter: blur(2px);
+    width: 100%;
+
+}
